@@ -1,0 +1,30 @@
+// Global tokens
+$clr-red: hsla(357, 100%, 68%, 1);
+$clr-blue: hsla(216, 71%, 56%, 1);
+$clr-white: hsl(0 0% 100%);
+$clr-light-gray: hsl(0 0% 68%);
+$clr-dark-gray: hsl(0 0% 24%);
+$clr-black: hsl(0 0% 9%);
+
+// Contextual tokens
+$clr-brand: $clr-blue;
+$clr-accent: $clr-red;
+$clr-neutral-100: $clr-white;
+$clr-neutral-300: $clr-light-gray;
+$clr-neutral-800: $clr-dark-gray;
+$clr-neutral-900: $clr-black;
+
+$color-text-body: $clr-neutral-800;
+$color-text-subdued: $clr-neutral-300;
+$color-text-high-contrast: $clr-neutral-900;
+$color-text-inverse: $clr-neutral-100;
+
+$color-background-body: $clr-neutral-100;
+$color-background-subdued: $clr-neutral-300;
+$color-background-inverse: $clr-neutral-800;
+
+// Component tokens
+$button-text-color: $clr-neutral-100;
+$button-background-primary: $clr-primary;
+$button-text-color-hover: $clr-neutal-100;
+$button-background-primary-hover: $clr-accent;
